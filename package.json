@@ -1,0 +1,27 @@
+{
+  "name": "imageballon-test",
+  "version": "1.0.0",
+  "description": "A simple af extension that recommends images based on input text\r ## Things to deliver to users\r - Get images based on input text\r - Load images infinitely as user scrolls\r ```text\r textInput --> Google Custom Search API --> images --> dataStorage --> vue-infinite-loading --> popup view\r ```\r ### Whys\r - Why Google CSE?\r     - The easiest way to search images based on text input\r     - Can choose the layout of result images\r     - Can also get results in diverse data formats like XMLs, jsons too\r - Why vue-infinite-loading?\r     - Implementing infinite loading is a pain in the ass, tbh\r     - Using vue and the plugin will save time and also display the loaded data in elegant view\r ### Issues\r - What's the best way to store the photo datas? \r     - If I choose to get the data in json, I can just use localstorage or chrome.storage\r     - But if I can just show the data in popup and combine it with vue-infinite-loading, I might not need additional storage",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahnsv/ImageBalloons.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahnsv/ImageBalloons/issues"
+  },
+  "homepage": "https://github.com/ahnsv/ImageBalloons#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "element-ui": "^2.4.9",
+    "googleapis": "^34.0.0",
+    "vue": "^2.5.17",
+    "vue-infinite-loading": "^2.4.0"
+  }
+}
